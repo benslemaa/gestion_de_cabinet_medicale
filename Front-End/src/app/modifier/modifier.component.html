@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+<meta charset="utf-8">
+<link rel="stylesheet" href="modifier.component.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<title></title>
+
+    </head>
+    <body >
+        <form method="GET">
+           
+         <button class="btn" (click)="goToAccueil()">Accueil</button> 
+         <button class="btn" (click)="goTordv()">Liste Rendez-vous</button>
+         
+         <h1>Modifier Rendez-Vous</h1>
+         
+         
+        <div class="txt-filed" class="txt-filed" style="margin: 50px;" >
+         <input  type="text" required name="numRDV" id="numRDV">
+         <label style="font-size: 30px;">Numéro Rendez-vous</label>
+        </div>
+        <div class="txt-filed" class="txt-filed" style="margin: 50px;" >
+         <input type="date" name="date" id="date" style="font-size: 30px;" >
+         <label></label>
+         
+        </div>
+        <div class="txt-filed" class="txt-filed" style="margin: 50px; text-align: center;" >
+            <input type="time" style="text-align:center; font-size: 50px; " name="heure" id="heure">
+            <label></label>
+            
+           </div>
+   
+        <br> 
+        <div align="center">
+        <button class="btn" (click)="modifier()">Modifier</button>
+        <button class="btn" type="reset">Annuler</button>
+            
+    </div>
+    <footer >
+        <br> <br><br>  <br>    
+    <a href="#" class="fa fa-facebook"></a>
+    
+    <a href="#" class="fa fa-twitter"></a>
+     <a href="https://www.instagram.com/?hl=en"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+     </footer>
+     <br><br><br>
+
+    </form>
+    </body>
+    

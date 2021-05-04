@@ -1,0 +1,110 @@
+body{
+    background-image: url(cab.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+h1 {
+    text-align:center;
+    font-size: 60px;
+}
+label {
+    background-color: rgba(255, 255, 255, 0.5);
+    border-radius: 40px;
+    border: none;
+    color:black;
+    
+    
+    font-size: 50px;
+    text-align: center;
+    display: inline-block;
+    margin: 3px;
+    font-family: "Times New Roman", Times, serif;
+    
+    
+    
+}
+.btn{
+ width: 200px;
+ height: 50px;
+ background-color: Gray;
+ border-radius: 30px;
+ border: none;
+ color: white;
+ font-size: 16px;
+ 
+}
+.btn:hover{
+ background-color: rgb(231, 227, 220);
+}
+p {
+    width: 70%;
+  
+    background-color: rgba(255, 255, 255, 0.5);
+ border-radius: 40px;
+ border: none;
+ color:rgb(0, 0, 0);
+ font-size: 30px;
+ text-align: center;
+ display: inline-block;
+ margin: 3px;
+ font-family: "Times New Roman", Times, serif;
+
+  }
+  
+  .googlemap {
+      width: 10%;
+      height: 20%;
+      position: absolute;
+      right: 0%;
+
+       border-radius: 30px;
+      
+  }
+  
+   
+  
+  .fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+  }
+  
+  /* Add a hover effect if you want */
+  .fa:hover {
+    opacity: 0.7;
+  }
+  
+  /* Set a specific color for each brand */
+  
+  /* Facebook */
+  .fa-facebook {
+    background: #3B5998;
+    color: white;
+    border-radius: 30px;
+    float: right;
+    margin: 2px;
+    font-size: 24px;
+
+  }
+  
+  /* Twitter */
+  .fa-twitter {
+    background: #55ACEE;
+    color: white;
+    border-radius: 30px;
+    float: right;
+    margin: 2px;
+    font-size: 24px;
+
+  }
+  .fa-instagram {
+    background: #ee5569;
+    color: white;
+    border-radius: 30px;
+    float: right;
+    margin: 2px;
+    
+  }
